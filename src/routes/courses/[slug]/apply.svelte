@@ -59,7 +59,7 @@
                     </p>
 				</div>
 
-				<form class="p-5 bg-white shadow-2xl shadow-gray-300 h-min rounded-xl flex-1 space-y-6">
+				<form class="p-5 bg-white shadow-lg h-min rounded-xl flex-1 space-y-6">
                     <div>
                         <label for="name" class="block lg:text-lg font-semibold text-gray-600 mb-1">Full name</label>
                         <input type="text" id="name" class="w-full rounded-lg focus:border-rose-500 focus:ring-rose-500 text-gray-700">

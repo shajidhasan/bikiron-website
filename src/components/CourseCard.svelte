@@ -2,7 +2,7 @@
 	export let courseInfo: CourseInfo;
 </script>
 
-<a class="bg-white rounded-md p-4 space-y-2 shadow-2xl shadow-gray-300" href={`/courses/${courseInfo.slug}`}>
+<a class="bg-white rounded-md p-4 space-y-2 shadow-lg" href={`/courses/${courseInfo.slug}`}>
 	<div class="bg-rose-100 rounded-md h-64" />
 	<h1 class="text-xl lg:text-2xl text-gray-700 font-semibold">{courseInfo.title}</h1>
     {#if !courseInfo.upcoming}

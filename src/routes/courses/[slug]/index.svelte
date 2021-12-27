@@ -46,7 +46,7 @@
 	<div class="flex-1 bg-gray-50">
 		<div class="container mx-auto p-5 mt-5 lg:mt-10">
 			<div class="flex flex-col lg:flex-row-reverse gap-12">
-				<div class="p-5 bg-white shadow-2xl shadow-gray-300 h-min rounded-xl">
+				<div class="p-5 bg-white shadow-lg h-min rounded-xl">
 					<div class="aspect-video bg-rose-100 relative rounded-lg">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
