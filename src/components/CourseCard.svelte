@@ -13,19 +13,19 @@
 					৳ {courseInfo.price}
 					<div class="absolute w-16 h-[1px] bg-gray-500 top-1/2 left-1/2 -rotate-6 -translate-x-1/2 -translate-y-1/2" />
 				</div>
-				<div class="rounded-md py-1 px-3 text-lg bg-green-50 text-green-500 font-semibold">
+				<div class="rounded-md py-1 px-3 text-lg bg-green-50 text-green-600 font-semibold">
 					৳ {courseInfo.discountedPrice}
 				</div>
 			</div>
 		{:else}
-			<div class="rounded-md py-1 px-3 text-lg bg-green-50 text-green-500 font-semibold">
+			<div class="rounded-md py-1 px-3 text-lg bg-green-50 text-green-600 font-semibold">
 				৳ {courseInfo.price}
 			</div>
 		{/if}
 		<p class="font-semibold text-rose-500">{courseInfo.lectureCount} lectures</p>
 	</div>
     {:else}
-    <h1 class="text-lg font-semibold text-green-500">Upcoming!</h1>
+    <h1 class="text-lg font-semibold text-green-600">Upcoming!</h1>
         
     {/if}
 </a>
